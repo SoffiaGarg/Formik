@@ -1,0 +1,73 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+.header{
+	background-color: #404258;
+	color:white;
+}
+
+.btn-label {
+	position: relative;
+	left: -12px;
+	display: inline-block;
+	padding: 6px 4px;
+	background: rgba(219, 150, 150, 0.15);
+	border-radius: 3px 0 0 3px;
+}
+
+.btn-labeled {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.btn {
+	margin: 10px 0px;
+    width:16rem;
+}
+
+.vertical-center{
+    transform: translateY(30%);
+}
+
+.iconStyle{
+    font-size: 1.2rem;;
+}
+
+
+/*Dahboard styles*/
+.body-section{
+	height:100vh;
+}
+
+/** Side Menu **/
+.nav-item-style{
+	--bs-nav-link-color: black !important;;
+	font-size:1.2rem;
+	margin-bottom: 1rem;
+}
+
+.side-menu{
+	background-color: #fff;
+	padding-top:20px;
+}
+
+a{
+	text-decoration: none !important;
+	color: #000 !important;
+}
+/** Card **/
+
+.card-detail{
+	background-color: #D1D1D1;
+	padding:30px;
+ }
+ 
+ 
+ .card-body-style{
+	 padding:0px !important
+ }
+ 
+
